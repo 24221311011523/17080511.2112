@@ -7,9 +7,10 @@
 		<link href="style.css" rel="stylesheet"></link>
 		<title>Uradna stran PGD Jel&scaron;ane - Prostovoljno gasilsko dru&scaron;tvo</title>
 		<meta name="google-site-verification" content="qDE4WbhG6rFagwTpb6AfTrSXaGetwqqlVVbBPTBQvZA" />
+		<script> function loadDomov() {location.href = "#Domov";} </script>
 	</head>
 
-	<body>
+	<body onload="loadDomov()">
 		<header>
 			<img src="Naslov.png"></img>
 		</header>
@@ -20,6 +21,7 @@
 
 				<li><a href="#Domov">Intervencije</a>
 					<ul>
+						<li><a href="#Nedavno">Nedavno</a></li>
 						<li><a href="#2019">2019</a></li>
 						<li><a href="#2018">2018</a></li>
 					</ul>
@@ -69,6 +71,9 @@
 				<iframe src="Tabs/Domov/Domov.html" height="800" width="890" frameborder="0"></iframe>
 			</div>
 
+			<div id="Nedavno">
+				<iframe src="Tabs/Intervencije/Nedavno/Nedavno.html" height="800" width="890" frameborder="0"></iframe>
+			</div>
 
 			<div id="2019">
 				<iframe src="Tabs/Intervencije/2019/2019.html" height="200" width="890" frameborder="0"></iframe>
